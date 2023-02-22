@@ -22,3 +22,7 @@ veracity = [false, true, false, false]
 veracity.push(true, false, true)
 puts veracity
 
+# Note on index positions:
+# Programming languages start counting at zero because it is more efficient.
+# Therefore, the first element in an array is actually in index position 0.
+# If I ran the command veracity[0], it would return false, as that is the element in the first position in the array.
