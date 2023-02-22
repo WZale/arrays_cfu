@@ -3,6 +3,8 @@ friends = ["Charles", "Mike", "Chris", "Sean", "Will"]
 # will remove the first element, Charles, and return it
 friends.shift
 puts friends
+# will return the element indicated (i.e. the third one)
+friends.fetch(3)
 
 # array with integers
 ages = [35, 36, 34, 33, 38]
